@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BsSearch, BsPersonFill, BsXLg } from "react-icons/bs";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className={"extension-header"}>
+        <img className={"extension-header-logo"} src={"./logo128.png"} />
+        <BsXLg className={"extension-header-close"} size={22} />
+      </div>
+      <div className={"extension-body"}>
+        <div>
+          Join Twitter Veritas
+          <button className={"auth-button"}>Continue with Twitter</button>
+          <button className={"auth-button"}>Continue with Google</button>
+          <button className={"auth-button"}>Continue with Twitter</button>
+          <button className={"auth-button"}>Continue with Apple</button>
+        </div>
+      </div>
+      <div className={"extension-footer"}>
+        <BsSearch size={30} />
+        <BsPersonFill size={35} />
+      </div>
     </div>
   );
 }
