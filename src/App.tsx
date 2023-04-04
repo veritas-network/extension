@@ -9,17 +9,45 @@ function App() {
         <BsXLg className={"extension-header-close"} size={22} />
       </div>
       <div className={"extension-body"}>
-        <div>
-          Join Twitter Veritas
-          <button className={"auth-button"}>Continue with Twitter</button>
-          <button className={"auth-button"}>Continue with Google</button>
-          <button className={"auth-button"}>Continue with Twitter</button>
-          <button className={"auth-button"}>Continue with Apple</button>
+        <div className={"auth-body"}>
+          <div className={"auth-body-join"}> Join Twitter Veritas</div>
+          <button className={"auth-button"}>
+            <img
+              className="auth-button-logo auth-button-logo-twitter"
+              src={"./logo-twitter.png"}
+            />
+            Continue with Twitter
+          </button>
+          <button className={"auth-button"}>
+            <img
+              className="auth-button-logo auth-button-logo-discord"
+              src={"./logo-discord.png"}
+            />
+            Continue with Discord
+          </button>
+          <button className={"auth-button"}>
+            <img
+              className="auth-button-logo auth-button-logo-google"
+              src={"./logo-google.png"}
+            />
+            Continue with Google
+          </button>
+          <button className={"auth-button"}>
+            <img
+              className="auth-button-logo auth-button-logo-apple"
+              src={"./logo-apple.png"}
+            />
+            Continue with Apple
+          </button>
         </div>
       </div>
       <div className={"extension-footer"}>
-        <BsSearch size={30} />
-        <BsPersonFill size={35} />
+        <div className={"extension-footer-part"}>
+          <BsSearch size={20} />
+        </div>
+        <div className={"extension-footer-part"}>
+          <BsPersonFill size={25} />
+        </div>
       </div>
     </div>
   );

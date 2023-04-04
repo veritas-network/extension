@@ -1,46 +1,100 @@
 .auth-button {
-    width: 250px;
-    border: 1px solid #9e9e9e;
-    cursor: pointer;
-    margin: 0px auto 8px;
-    outline: none;
-    min-height: 42px;
-    border-radius: 3px;
-    background-color: #ffffff;
-    font-weight: 500;
-  }
-  
-  .extension-header {
-    width: 100%;
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
+  width: 250px;
+  border: 1px solid #9e9e9e;
+  cursor: pointer;
+  margin: 0px auto 8px;
+  outline: none;
+  min-height: 42px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  font-weight: 500;
+}
 
-  .extension-header-logo {
-    width: 32px;
-    height: 32px;
-    margin-left: 15px;
-  }
+.auth-button-logo {
+  margin-right: 5px;
+}
 
-  .extension-header-close {
-    margin-right: 15px;
-    color: rgb(189, 189, 189);
-  }
-  
-  .extension-body {
-    width: 100%;
-    height: 480px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .extension-footer {
-    width: 100%;
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
+.auth-button-logo-twitter {
+  width: 24px;
+  height: 20px;
+}
+
+.auth-button-logo-discord {
+  width: 26px;
+  height: 20px;
+}
+
+.auth-button-logo-google {
+  width: 20px;
+  height: 20px;
+}
+
+.auth-button-logo-apple {
+  width: 16px;
+  height: 20px;
+}
+
+.extension-header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.extension-header-logo {
+  width: 32px;
+  height: 32px;
+  margin-left: 15px;
+}
+
+.extension-header-close {
+  margin-right: 15px;
+  color: rgb(189, 189, 189);
+}
+
+.extension-body {
+  width: 100%;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-body {
+  width: 250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-body-join {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.extension-footer {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 1px solid #eeeeee;
+}
+
+.extension-footer-part {
+  width: 56px;
+  height: 100%;
+  border-bottom: 4px solid rgb(242, 108, 37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
