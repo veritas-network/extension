@@ -1,37 +1,21 @@
+import { BsTwitter } from "react-icons/bs";
 import "./ExtensionBodyAuth.css";
 
 export const ExtensionBodyAuth = () => {
   return (
     <div className={"extension-body"}>
       <div className={"auth-body"}>
-        <div className={"auth-body-join"}>Join Veritas Network</div>
-        <button className={"auth-button auth-button-twitter"}>
-          <img
-            className="auth-button-logo auth-button-logo-twitter"
-            src={"./logo-twitter.png"}
-          />
+        <div className={"auth-body-join-title"}>
+          Welcome to Veritas Network!
+        </div>
+        <div className={"auth-body-join-text"}>
+          Track the accuracy of future predictions or factuality statements on
+          Twitter. Crypto prices, conspiracy theories or simply weather
+          tomorrow.
+        </div>
+        <button className={"auth-button-twitter"}>
+          <BsTwitter style={{ marginRight: 8, color: "white" }} />
           Continue with Twitter
-        </button>
-        <button className={"auth-button auth-button-discord"}>
-          <img
-            className="auth-button-logo auth-button-logo-discord"
-            src={"./logo-discord.png"}
-          />
-          Continue with Discord
-        </button>
-        <button className={"auth-button auth-button-google"}>
-          <img
-            className="auth-button-logo auth-button-logo-google"
-            src={"./logo-google.png"}
-          />
-          Continue with Google
-        </button>
-        <button className={"auth-button auth-button-apple"}>
-          <img
-            className="auth-button-logo auth-button-logo-apple"
-            src={"./logo-apple.png"}
-          />
-          Continue with Apple
         </button>
       </div>
     </div>

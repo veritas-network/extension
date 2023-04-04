@@ -1,0 +1,28 @@
+.extension-body-tweet-voting-options-container {
+  width: 100%;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.extension-body-tweet-voting-option {
+  margin-top: 5px;
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5%;
+  font-weight: 500;
+  background-color: #8000ff;
+}
+
+.extension-body-tweet-votes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
