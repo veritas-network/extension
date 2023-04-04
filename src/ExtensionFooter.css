@@ -1,0 +1,21 @@
+.extension-footer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 1px solid #eeeeee;
+  }
+  
+  .extension-footer-part {
+    width: 56px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .extension-footer-part-active {
+    border-bottom: 4px solid #8000ff;
+  }

@@ -1,10 +1,10 @@
-import "./Auth.css";
+import "./ExtensionBodyAuth.css";
 
-export const Auth = () => {
+export const ExtensionBodyAuth = () => {
   return (
     <div className={"extension-body"}>
       <div className={"auth-body"}>
-        <div className={"auth-body-join"}> Join Twitter Veritas</div>
+        <div className={"auth-body-join"}>Join Veritas Network</div>
         <button className={"auth-button auth-button-twitter"}>
           <img
             className="auth-button-logo auth-button-logo-twitter"

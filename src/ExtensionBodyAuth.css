@@ -10,13 +10,15 @@
   font-weight: 600;
   line-height: 22px;
 }
+.auth-button:hover {
+  background-color: #f5f5f5;
+}
 
 .auth-button-logo {
   margin-right: 5px;
 }
 
 .auth-button-twitter {
-
 }
 
 .auth-button-logo-twitter {
@@ -51,36 +53,6 @@
   height: 20px;
 }
 
-.extension-header {
-  width: 100%;
-  height: 60px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 2px solid #eeeeee;
-}
-
-.extension-header-logo {
-  width: 32px;
-  height: 32px;
-  margin-left: 15px;
-}
-
-.extension-header-close {
-  margin-right: 15px;
-  color: rgb(189, 189, 189);
-}
-
-.extension-body {
-  width: 100%;
-  height: 480px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .auth-body {
   width: 250px;
   height: 100%;
@@ -98,22 +70,5 @@
   justify-content: flex-start;
   color: #212121;
   font-weight: 500;
-}
-
-.extension-footer {
-  width: 100%;
-  height: 60px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  border-top: 1px solid #eeeeee;
-}
-
-.extension-footer-part {
-  width: 56px;
-  height: 100%;
-  border-bottom: 4px solid #8000ff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  user-select: none;
 }

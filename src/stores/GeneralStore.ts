@@ -1,19 +1,25 @@
-import { makeObservable, observable } from "mobx";
+import { action, makeObservable, observable } from "mobx";
 import { RootStore } from "./RootStore";
+
+export enum Page {
+  Search = 1,
+  Auth = 2,
+}
 
 export class GeneralStore {
   private rootStore: RootStore;
-  public atSearch: boolean;
+  public page: Page;
 
   constructor(rootStore: RootStore) {
     this.rootStore = rootStore;
-    this.atSearch = false;
+    this.page = Page.Auth;
     makeObservable(this, {
-      atSearch: observable,
+      page: observable,
+      setPage: action,
     });
   }
 
-  SetAtSearch(atSearch: boolean) {
-    this.atSearch = atSearch;
+  setPage(page: Page) {
+    this.page = page;
   }
 }
