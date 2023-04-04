@@ -28,3 +28,63 @@ button {
   height: 42px;
   font-size: 16px;
 }
+
+/*! Last modified 6/3/2022, 2:21:29 PM */
+@font-face {
+  font-family: SuisseIntl;
+  src: url("https://cdn.honey.io/fonts/suisse-intl/400.eot");
+  src: url("https://cdn.honey.io/fonts/suisse-intl/400.woff2") format("woff2"),url("https://cdn.honey.io/fonts/suisse-intl/400.woff") format("woff"),url("https://cdn.honey.io/fonts/suisse-intl/400.ttf") format("truetype"),url("https://cdn.honey.io/fonts/suisse-intl/400.svg") format("svg");
+  font-weight: 400;
+  font-display: swap
+}
+
+@font-face {
+  font-family: SuisseIntl;
+  src: url("https://cdn.honey.io/fonts/suisse-intl/500.eot");
+  src: url("https://cdn.honey.io/fonts/suisse-intl/500.woff2") format("woff2"),url("https://cdn.honey.io/fonts/suisse-intl/500.woff") format("woff"),url("https://cdn.honey.io/fonts/suisse-intl/500.ttf") format("truetype"),url("https://cdn.honey.io/fonts/suisse-intl/500.svg") format("svg");
+  font-weight: 500;
+  font-display: swap
+}
+
+@font-face {
+  font-family: SuisseIntl;
+  src: url("https://cdn.honey.io/fonts/suisse-intl/600.eot");
+  src: url("https://cdn.honey.io/fonts/suisse-intl/600.woff2") format("woff2"),url("https://cdn.honey.io/fonts/suisse-intl/600.woff") format("woff"),url("https://cdn.honey.io/fonts/suisse-intl/600.ttf") format("truetype"),url("https://cdn.honey.io/fonts/suisse-intl/600.svg") format("svg");
+  font-weight: 600;
+  font-display: swap
+}
+
+@font-face {
+  font-family: SuisseIntl;
+  src: url("https://cdn.honey.io/fonts/suisse-intl/700.eot");
+  src: url("https://cdn.honey.io/fonts/suisse-intl/700.woff2") format("woff2"),url("https://cdn.honey.io/fonts/suisse-intl/700.woff") format("woff"),url("https://cdn.honey.io/fonts/suisse-intl/700.ttf") format("truetype"),url("https://cdn.honey.io/fonts/suisse-intl/700.svg") format("svg");
+  font-weight: 700;
+  font-display: swap
+}
+
+@font-face {
+  font-family: SuisseIntlMono;
+  src: url("https://cdn.honey.io/fonts/suisse-intl-mono/regular.eot");
+  src: url("https://cdn.honey.io/fonts/suisse-intl-mono/regular.woff2") format("woff2"),url("https://cdn.honey.io/fonts/suisse-intl-mono/regular.woff") format("woff"),url("https://cdn.honey.io/fonts/suisse-intl-mono/regular.ttf") format("truetype"),url("https://cdn.honey.io/fonts/suisse-intl-mono/regular.svg") format("svg");
+  font-display: swap
+}
+
+@font-face {
+  font-family: Eina03;
+  src: url("https://cdn.honey.io/fonts/eina03/700.eot");
+  src: url("https://cdn.honey.io/fonts/eina03/700.woff2") format("woff2"),url("https://cdn.honey.io/fonts/eina03/700.woff") format("woff"),url("https://cdn.honey.io/fonts/eina03/700.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Pangea;
+  src: url("https://cdn.honey.io/fonts/pangea/medium.woff2") format("woff2"),url("https://cdn.honey.io/fonts/pangea/medium.woff") format("woff");
+  font-display: swap
+}
+
+@font-face {
+  font-family: HoneyGoldG;
+  font-display: swap;
+  src: url("https://cdn.honey.io/fonts/honeygold-g/medium.ttf") format("truetype")
+}

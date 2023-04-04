@@ -7,11 +7,16 @@
   min-height: 42px;
   border-radius: 3px;
   background-color: #ffffff;
-  font-weight: 500;
+  font-weight: 600;
+  line-height: 22px;
 }
 
 .auth-button-logo {
   margin-right: 5px;
+}
+
+.auth-button-twitter {
+
 }
 
 .auth-button-logo-twitter {
@@ -19,14 +24,26 @@
   height: 20px;
 }
 
+.auth-button-discord {
+  cursor: not-allowed;
+}
+
 .auth-button-logo-discord {
   width: 26px;
   height: 20px;
 }
 
+.auth-button-google {
+  cursor: not-allowed;
+}
+
 .auth-button-logo-google {
   width: 20px;
   height: 20px;
+}
+
+.auth-button-apple {
+  cursor: not-allowed;
 }
 
 .auth-button-logo-apple {
@@ -79,6 +96,8 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  color: #212121;
+  font-weight: 500;
 }
 
 .extension-footer {
@@ -93,7 +112,7 @@
 .extension-footer-part {
   width: 56px;
   height: 100%;
-  border-bottom: 4px solid rgb(242, 108, 37);
+  border-bottom: 4px solid #8000ff;
   display: flex;
   justify-content: center;
   align-items: center;
