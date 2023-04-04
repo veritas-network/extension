@@ -1,0 +1,27 @@
+.extension-body-search-tweet {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.extension-body-search-tweet-thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.extension-body-search-tweet-author-name-and-username-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.extension-body-search-tweet-author-name {
+
+}
+
+.extension-body-search-tweet-author-username {
+
+}

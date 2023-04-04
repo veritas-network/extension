@@ -2,8 +2,9 @@ import { action, makeObservable, observable } from "mobx";
 import { RootStore } from "./RootStore";
 
 export enum Page {
-  Search = 1,
-  Auth = 2,
+  Tweet = 1,
+  Search = 2,
+  Auth = 3,
 }
 
 export class GeneralStore {
