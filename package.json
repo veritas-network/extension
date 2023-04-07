@@ -1,8 +1,9 @@
 {
   "name": "veritas-extension",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^7.1.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -21,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "(SET INLINE_RUNTIME_CHUNK=false) && react-scripts build",
+    "build": "(SET INLINE_RUNTIME_CHUNK=false) && craco build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.228"
   }
 }
