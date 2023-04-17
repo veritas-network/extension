@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Veritas Network",
   "version": "0.0.6",
-  "description": "Track the accuracy of future predictions or factuality statements on Twitter. Crypto prices, conspiracy theories or simply weather tomorrow. Decentralized.",
+  "description": "Truth search engine. Compete, earn reputation and find truth before everyone else.",
   "action": {
     "default_popup": "index.html",
     "default_title": "Open the popup"
@@ -15,15 +15,9 @@
   },
   "content_scripts": [
     {
-      "matches": [
-        "*://twitter.com/*"
-      ],
-      "js": [
-        "./static/js/content.js"
-      ],
-      "css": [
-        "./static/css/content.css"
-      ]
+      "matches": ["*://twitter.com/*"],
+      "js": ["./static/js/content.js"],
+      "css": ["./static/css/content.css"]
     }
   ]
 }
